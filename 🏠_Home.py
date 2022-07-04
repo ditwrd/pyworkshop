@@ -10,7 +10,7 @@ def app():
     st.markdown("")
     st.markdown("")
     st.markdown("")
-    st.markdown("Brought to you by **[Engineer Connect](https://www.linkedin.com/company/engineerconnect/) in collaboration with [PT. Jokeen Solusi Teknologi (Jokeen.id)](https://www.linkedin.com/company/jokeen-id/)**")
+    st.markdown("Brought to you by [**Engineer Connect**](https://www.linkedin.com/company/engineerconnect/) in collaboration with [**PT. Jokeen Solusi Teknologi (Jokeen.id)**](https://www.linkedin.com/company/jokeen-id/)")
 
     jokeen_logo = Image.open(os.path.join("static", "jokeen_logo.png"))
     engineer_connect_logo = Image.open(os.path.join("static", "ec_logo.png"))
