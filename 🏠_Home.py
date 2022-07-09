@@ -5,6 +5,7 @@ from PIL import Image
 
 
 def app():
+    st.set_page_config(page_title="Home", page_icon="🏠")
     st.subheader("Introduction to Python 🐍: Basics for Engineering ⚙️")
     st.markdown("**_A simple workshop module introducing Python basics for engineering._**")
     st.markdown("")
