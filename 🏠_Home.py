@@ -13,9 +13,10 @@ def app():
     st.markdown("")
     st.markdown("Brought to you by [**Engineer Connect**](https://www.linkedin.com/company/engineerconnect/) in collaboration with [**PT. Jokeen Solusi Teknologi (Jokeen.id)**](https://www.linkedin.com/company/jokeen-id/)")
 
-    jokeen_logo = Image.open(os.path.join("static", "jokeen_logo.png"))
-    engineer_connect_logo = Image.open(os.path.join("static", "ec_logo.png"))
-    adit_circ = Image.open(os.path.join("static", "adit_circ.png"))
+    image_path = os.path.join("assets", "image")
+    jokeen_logo = Image.open(os.path.join(image_path, "jokeen_logo.png"))
+    engineer_connect_logo = Image.open(os.path.join(image_path, "ec_logo.png"))
+    adit_circ = Image.open(os.path.join(image_path, "adit_circ.png"))
 
     c1,c2,_,_,_ = st.columns(5)
     c1.image(engineer_connect_logo)
