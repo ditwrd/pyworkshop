@@ -8,6 +8,7 @@ authors = ["Aditya Wardianto <83759122+ditw11mhs@users.noreply.github.com>"]
 python = "^3.9"
 numpy = "^1.23.0"
 streamlit = "^1.10.0"
+watchdog = "^2.1.9"
 
 [tool.poetry.dev-dependencies]
 
