@@ -3,3 +3,4 @@
 import subprocess
 
 subprocess.run(["streamlit","run","🏠_Home.py","--server.fileWatcherType",'"watchdog'])
+
