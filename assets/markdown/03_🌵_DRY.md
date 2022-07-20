@@ -7,7 +7,7 @@
   - [What is DRY?](#what-is-dry)
   - [What's a function?](#whats-a-function)
   - [What's a Class?](#whats-a-class)
-  - [TlDR](#tldr)
+  - [TLDR](#tldr)
 
 </details>
 
@@ -150,7 +150,7 @@ We can see that each "Object" has it own function and also variable that we can 
 
 Let's go to the next chapter!
 
-## TlDR
+## TLDR
 
 - We can make some repetitive lengthy process into a function that can be reuse to process things.
 - Function help reduce the amount of edit when you need to edit the process.
