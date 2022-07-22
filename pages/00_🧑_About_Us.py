@@ -27,6 +27,7 @@ def about_speaker(adit_circ):
     - Aditya Wardianto or Adit is a Final Year undergraduate student from Biomedical Engineering Department Sepuluh Nopember Institute of Technology.\n
     - He has used Python for 3+ years to freelance and is currently freelancing as a machine learning engineer at PT Jokeen Solusi Teknologi.\n
     - He is a Certified Tensorflow Developer thanks to Bangkit Academy led by Google, GoTo, and Traveloka.
+    - Contact me through [WA]("https://wa.me/6281329968144") - [Linkedin]("https://www.linkedin.com/in/adityawardianto/") - [Github](https://github.com/ditw11mhs)
     """
     )
 
@@ -56,6 +57,7 @@ def about_eng_con(engineer_connect_logo):
         - Engineer Connect's services range from Engineer Group Study, Skill Workshop, and On-Demand Tutor.\n
         - Engineer Connect is also supported and part of the Leadership Project of Young Leaders of Indonesia by McKinsey & Company.\n
         - Engineer Connect will always strive to provide the best service quality and effectively connect Indonesia's engineering students.
+        - Contact us through [Linkedin]("https://www.linkedin.com/company/engineerconnect/") - [Instagram](https://www.instagram.com/engineerconnect/)
         """
     )
 
