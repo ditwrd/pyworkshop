@@ -15,6 +15,10 @@ def app():
 
     about_jokeen(jokeen_logo)
 
+    about_speaker(adit_circ)
+
+
+def about_speaker(adit_circ):
     st.markdown("## About Speaker")
     c1, c2 = st.columns([1, 4])
     c1.image(adit_circ)
