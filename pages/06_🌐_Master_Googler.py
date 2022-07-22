@@ -18,7 +18,7 @@ def app():
     markdown_chunks = re.split(r"[ ?]*\!\[image\]\(.*\)\n[ ?]*source:.*", markdown)
 
     st.markdown(markdown_chunks[0], unsafe_allow_html=True)
-    # st.markdown(markdown, unsafe_allow_html=True)
+
     for md, im, sc in zip(markdown_chunks[1:], list_of_image, list_of_source):
         st.image(im, use_column_width=True, caption=sc)
         st.markdown(md, unsafe_allow_html=True)
